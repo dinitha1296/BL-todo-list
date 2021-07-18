@@ -14,7 +14,7 @@ const Task = (props) => {
     return (
 
         <div style={{display: 'inline-flex'}}>
-            <p>{JSON.stringify(props.task)}</p>
+            {/* <p>{JSON.stringify(props.task)}</p> */}
             <div style={{backgroundColor: props.task.color, height: '100px', width:'50px'}}/>
             <div style={{display: 'block'}}>
                 <p>{props.task.priority}</p>

@@ -31,3 +31,10 @@
     background-color: red;
     border-radius: 0.5rem;
 }
+
+.close-btn {
+    color: red;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

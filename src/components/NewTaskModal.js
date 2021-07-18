@@ -60,6 +60,7 @@ const NewTaskModal = (props) => {
             <div className='inner-container'>
                 {warning && <Warning warning={warning} />}
                 <h1>Create New TODO</h1>
+                <button className='close-btn' onClick={() => props.onClose()}>{'Close'}</button>
                 <textarea placeholder={'Description'} value={descripton} onChange={e => setDescription(e.target.value)}/>
                 <div>
                     <div>
