@@ -1,0 +1,33 @@
+.outer-container {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-container {
+    background-color: white;
+    width: 70%;
+    height: 70%;
+    z-index: 1;
+    position:absolute;
+}
+
+.warning {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.warning-text {
+    color: white;
+    padding: 1rem;
+    background-color: red;
+    border-radius: 0.5rem;
+}
